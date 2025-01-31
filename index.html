@@ -105,7 +105,7 @@ body {
 </head>
 <body>
 <div class="hangman-container">
-  <h1>GAS Hangman</h1>
+  <h1>Hangman (Fruits & Vegetables)</h1>
   <div class="timer">Time: 0:00</div>
   <svg class="hangman-svg" width="200" height="250" viewBox="0 0 200 250">
     <!-- Gallows -->
@@ -128,16 +128,15 @@ body {
 </div>
 
 <script>
-const words = [
-  'SENSITIVE', 'KEEN', 'DETECT', 'ITEM', 'ACCOMPLISH', 'DISEASE', 'INFECTED',
-  'LOCATE', 'REWARD', 'ABILITY', 'PREDICT', 'MANAGE', 'CREATE', 'EXPOSE',
-  'PERFORM', 'BEHAVIOR', 'ALERT', 'COMPLETE', 'ASSIGN', 'SPECIFIC', 'PLASTIC',
-  'CONVENIENCE', 'SURROUND', 'EAGERLY', 'DRIFT', 'ENVY', 'CROWDED',
-  'OBVIOUSLY', 'PRODUCT', 'CONSUME', 'POISONOUS', 'SUBSTANCE', 'RECYCLING',
-  'HARM', 'ENVIRONMENT', 'PROPERLY', 'FREEDOM', 'STATUE', 'REMOVE',
-  'CELEBRATION', 'INDEPENDENCE', 'MONUMENT', 'SYMBOLIZE', 'FIRMLY',
-  'REPRESENT', 'ANCIENT', 'SLAVERY', 'UNFAIR', 'TREATMENT', 'TOURIST',
-  'ATTRACTION', 'LANDMARK', 'GLOBE'
+const words = [  
+  'APPLE', 'BANANA', 'ORANGE', 'GRAPE', 'WATERMELON', 'STRAWBERRY', 'BLUEBERRY',  
+  'PINEAPPLE', 'MANGO', 'PEACH', 'CHERRY', 'PLUM', 'KIWI', 'PAPAYA', 'PEAR',  
+  'LEMON', 'LIME', 'AVOCADO', 'FIG', 'DATE', 'POMEGRANATE', 'GRAPEFRUIT',  
+  'RASPBERRY', 'TANGERINE', 'BLACKBERRY', 'CANTALOUPE', 'HONEYDEW',  
+  'TOMATO', 'CUCUMBER', 'CARROT', 'POTATO', 'ONION', 'GARLIC', 'PEPPER',  
+  'BROCCOLI', 'CAULIFLOWER', 'SPINACH', 'LETTUCE', 'KALE', 'CABBAGE',  
+  'ZUCCHINI', 'EGGPLANT', 'BEET', 'RADISH', 'TURNIP', 'CELERY', 'ASPARAGUS',  
+  'MUSHROOM', 'PUMPKIN'  
 ];
 
 let word = '';
